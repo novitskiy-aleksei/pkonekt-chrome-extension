@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "Pkonekt extension",
+    "description": "Официальное расширение для Pkonekt",
+    "version": "1.0",
+
+    "permissions": [
+        "http://pkonekt.vitalyshutko.com/*",
+        "contextMenus",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Pkonekt"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icon.png"
+    }
+}
